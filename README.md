@@ -1,10 +1,23 @@
 # BookMyShow MVP Clone (Go + Svelte)
+![GitHub License](https://img.shields.io/github/license/AdityaShankar1/bmsclone-go?style=flat-square&color=blue)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/AdityaShankar1/bmsclone-go/ci.yml?style=flat-square&label=build)
+![GitHub last commit](https://img.shields.io/github/last-commit/AdityaShankar1/bmsclone-go?style=flat-square)
 
 A high-performance, robust movie booking application with integrated financial tools and multiplex chaining.
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
 <img width="1470" height="956" alt="Screenshot 2026-03-30 at 3 38 32 PM" src="https://github.com/user-attachments/assets/901cf57c-2c13-4432-84fb-152341b6213b" />
 
 ## 🚀 Key Features
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 
 ### 🎬 Cinema & Booking
 - **Multiplex Chains**: Support for PVR-INOX, Cinepolis, and Independent theatres.
