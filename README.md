@@ -89,3 +89,5 @@ docker compose up --build
 ## 🧪 CI/CD
 Automated builds and tests are handled via **GitHub Actions** (`.github/workflows/ci.yml`), ensuring that every push to `main` is buildable and robust.
 
+## A Note on the deployment:
+If you're reading this after mid-Apr26, you'll likely hit an error with the URL as my GCP trial would expire by then.
