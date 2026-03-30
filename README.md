@@ -2,6 +2,8 @@
 
 A high-performance, robust movie booking application with integrated financial tools and multiplex chaining.
 
+<img width="1470" height="956" alt="Screenshot 2026-03-30 at 3 38 32 PM" src="https://github.com/user-attachments/assets/901cf57c-2c13-4432-84fb-152341b6213b" />
+
 ## 🚀 Key Features
 
 ### 🎬 Cinema & Booking
@@ -10,11 +12,26 @@ A high-performance, robust movie booking application with integrated financial t
 - **Seat Locking**: Real-time Redis-based seat locking (5-minute TTL) to prevent double booking.
 - **Smart Formats**: Dynamic filtering for IMAX, 4DX, and 2D based on theatre capabilities.
 
+### Walkthrough:
+
+<img width="1122" height="655" alt="image" src="https://github.com/user-attachments/assets/5efbfb08-f64a-400b-b413-fe3ff7fa2728" />
+<img width="1123" height="684" alt="image" src="https://github.com/user-attachments/assets/f2d94029-406a-4785-b95b-40a9815259ae" />
+<img width="1130" height="477" alt="image" src="https://github.com/user-attachments/assets/7e0b16f5-e0cf-4237-a34d-6328c1fa8978" />
+<img width="1125" height="729" alt="image" src="https://github.com/user-attachments/assets/ef721c7e-7560-462f-803d-0ece040bd44d" />
+<img width="1466" height="917" alt="image" src="https://github.com/user-attachments/assets/f3d2d99a-a3d9-4c3e-88ce-1f1d5f2d3096" />
+<img width="1020" height="493" alt="image" src="https://github.com/user-attachments/assets/1346daea-e26a-4ceb-8d02-0240c742fd8a" />
+<img width="1020" height="621" alt="image" src="https://github.com/user-attachments/assets/43e663b4-a8e3-4199-8de8-f5c8e83a16c9" />
+<img width="1012" height="475" alt="image" src="https://github.com/user-attachments/assets/e63ce6b0-b61e-417b-b184-1e0275c04cd9" />
+
+
 ### 💰 Financial Ecosystem (USP)
 - **Unified Wallet**: Manage payments, investments, and refunds in one place.
 - **BMSCash Refunds**: Automatic 70% refund to wallet for eligible cancellations (>2h before showtime).
 - **Inflation Protection**: Invest ₹500+ to "freeze" ticket rates and unlock a permanent 20% discount.
 - **Transaction Logs**: Full transparency for all payments, investments, and refunds.
+
+<img width="1126" height="837" alt="image" src="https://github.com/user-attachments/assets/0809aa24-274a-4892-8089-d63e1af84dcc" />
+
 
 ### ⭐ Engagement
 - **Star Ratings**: Rate your movie experience after booking.
