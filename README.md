@@ -73,6 +73,19 @@ graph TD
    ```
 4. **Start Frontend**:
    ```bash
-   cd frontend
-   npm install && npm run dev
-   ```
+## 🐳 Docker Deployment
+
+The entire stack can be launched with a single command:
+
+```bash
+docker compose up --build
+```
+
+- **Frontend**: http://localhost:5173
+- **Backend**: http://localhost:8080
+- **Postgres**: localhost:5432
+- **Redis**: localhost:6379
+
+## 🧪 CI/CD
+Automated builds and tests are handled via **GitHub Actions** (`.github/workflows/ci.yml`), ensuring that every push to `main` is buildable and robust.
+

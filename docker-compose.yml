@@ -1,0 +1,44 @@
+services:
+  db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_USER: aditya
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: bookmyshow
+    ports:
+      - "5432:5432"
+    networks:
+      - bms-network
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - bms-network
+
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      DATABASE_URL: "host=db user=aditya password=password123 dbname=bookmyshow port=5432 sslmode=disable"
+      REDIS_URL: "redis:6379"
+    depends_on:
+      - db
+      - redis
+    networks:
+      - bms-network
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - bms-network
+
+networks:
+  bms-network:
+    driver: bridge
