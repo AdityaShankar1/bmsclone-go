@@ -73,6 +73,10 @@ graph TD
    ```
 4. **Start Frontend**:
    ```bash
+   cd frontend
+   npm run dev
+    ```
+   
 ## 🐳 Docker Deployment
 
 The entire stack can be launched with a single command:
